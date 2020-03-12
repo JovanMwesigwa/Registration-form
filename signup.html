@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+    <link rel="stylesheet" href=".\bootstrap\bootstrap.min.css">
+	<link rel="stylesheet" href=".\bootstrap\w3.css">
+	<link rel="stylesheet" href="C:\Users\Valued Customer\Desktop\work\bootstrap\css\style.css">
+	
+</head>
+<body>
+    <div class="contaniner" id="navbar">
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand" href="#">LOGO</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active" id="home">
+						<a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item" id="services">
+						<a class="nav-link" href="#">Services</a>
+					</li>
+					<li class="nav-item" id="about">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					
+				</ul>
+			</div>
+			<div class="d-flex flex-row-reverse bd-highlight" id="forms">
+ 
+				<a class="nav-link" href="login.html">Login</a>
+
+			</div>
+		</nav>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            
+            <div class="container" id="login-container">
+                
+                <form action="products.html" method="post"> 
+                    <center><h2>REGISTER HERE</h2></center>             
+                    <div class="container">                 
+                        <input type="text" placeholder="Enter First Name" name="first-name" required id="username">
+                    </div>
+                    <div class="container">                 
+                        <input type="text" placeholder="Enter Last Name" name="last-name" required>
+                    </div>
+                    <div class="container">                 
+                        <input type="email" placeholder="Enter your email" name="email" required>
+                    </div>
+                    <div class="container">
+                        <input type="password" placeholder="Enter Password" name="password" required>
+                    </div>
+                    <div class="container">
+                        <input type="password" placeholder="Confirm Password" name="confirm-password" required>
+                    </div>
+                    <div class="container">
+                        <button type="submit" class="btn btn-success">SignUp</button>
+                    </div>
+                    <div class="container">
+                        <label>
+                            <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>             
+                    </div>  
+                    <div class="container">
+                        <span class="password" >Forgot <a href="#">password?</a></span>
+                      </div>               
+                    <div class="container" >
+                      <button type="submit" class="btn btn-primary" id="cancel-btn" >Cancel</button>
+                    </div>                  
+                  </form>
+            </div>            
+        </div>
+    </div>  
+    <script src="script.js"></script>  
+</body>
+</html>

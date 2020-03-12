@@ -1,0 +1,67 @@
+body{
+    background-color: #879C96;
+}
+
+#navbarNav{
+
+    padding-top: 10px;
+    
+}
+
+#home, #services, #about{
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+#forms{
+    color: #C5D4D4;
+}
+
+form{
+    border: 3px solid #f1f1f1;
+}
+
+/* shaping and resizing the inputs*/
+input[type=text], input[type=password], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+/*styling the button */
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0; /* increases the distance to the top and bottom of the buttom to other elements */
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+/* editing the cancel btn using the id tag*/
+#cancel-btn{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+    border: none;
+}
+
+/* adding padding to the login container using its id */
+#login-container{
+    padding: 16px;
+}
+
+/* editing the "forgot password text */
+span.password{
+    float: right;
+    padding-top: 16px;
+}
+
+
